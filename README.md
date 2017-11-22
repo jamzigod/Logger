@@ -1,4 +1,4 @@
-# pythonbases
-Base for my personal python projects.
+# Logger
+Logger used as a base for my personal python projects.
 
-Probably should be a private repo but I dont want to pay the $7/month.
+Probably should be a private repo but feel free to use.
