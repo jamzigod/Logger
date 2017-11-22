@@ -1,7 +1,7 @@
 import time
 from termcolor import colored
 
-import colorama
+import coloram
 
 
 class Logger():
