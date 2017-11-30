@@ -4,7 +4,7 @@ from termcolor import colored
 import colorama
 
 
-class Logger():
+class logger():
 
 	def __init__(self):
 		colorama.init()
