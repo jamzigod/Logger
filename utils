@@ -33,3 +33,12 @@ class logger():
 	def status(self, text):
 		print("{} {}".format(self.__timestamp(), colored(text, "blue")))
 		return
+
+	def purple(self, text):
+		print("{} {}".format(self.__timestamp(), colored(text, "magenta")))
+		return
+
+	def cyan(self, text):
+		print("{} {}".format(self.__timestamp(), colored(text, "cyan")))
+		return
+
