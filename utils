@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 from termcolor import colored
 
 import colorama
@@ -10,7 +11,7 @@ class logger():
 		colorama.init()
 
 	def __timestamp(self):
-		timestamp = str("[" + (time.strftime("%H:%M:%S")) + "] - ")
+		timestamp = str("["+datetime.now().strftime("%H:%M:%S.%f")[:-3]+"] - ")
 		return timestamp
 
 	def log(self, text):
